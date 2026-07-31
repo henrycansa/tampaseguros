@@ -1,0 +1,53 @@
+export const contactEs = {
+  metaTitle: "Contacto | Tampa Seguros",
+  metaDescription:
+    "Contacta a Tampa Seguros por WhatsApp, teléfono o formulario. Oficina en Tampa FL, asesoría gratuita en español. Licencia estatal L099087.",
+  breadcrumbName: "Contacto",
+  eyebrow: "Hablemos",
+  h1: "Contacta a Tampa Seguros",
+  geo: "La página de Contacto de Tampa Seguros te conecta directamente con un asesor de seguros licenciado en Florida, por WhatsApp, teléfono o formulario. Atendemos consultas sobre seguros personales y comerciales desde nuestra oficina en Tampa, con respuesta el mismo día hábil. Escríbenos tu nombre, teléfono y el motivo de tu consulta, y te contactamos sin costo ni compromiso.",
+  formTitle: "Envíanos un mensaje",
+  formSubtitle: "Completa el formulario y un asesor te responde el mismo día hábil.",
+  infoTitle: "Información de contacto",
+  officeLabel: "Oficina",
+  hoursLabel: "Horario de atención",
+  emailLabel: "Correo electrónico",
+  phoneLabel: "Teléfono",
+  mapTitle: "Cómo llegar",
+  faqTitle: "Preguntas frecuentes sobre contacto",
+  faqs: [
+    { q: "¿Cuánto tardan en responder?", a: "Normalmente respondemos el mismo día hábil, y muchas veces en minutos si escribes por WhatsApp en horario de atención." },
+    { q: "¿Puedo visitar la oficina sin cita?", a: "Recomendamos agendar por WhatsApp o teléfono antes de visitarnos, para asegurarnos de que un asesor esté disponible para atenderte." },
+    { q: "¿Atienden a clientes fuera del área de Tampa?", a: "Sí, atendemos a clientes en todo Florida por teléfono, WhatsApp y videollamada, no solo en el área de Tampa Bay." },
+    { q: "¿Tienen atención en inglés?", a: "Sí, todo nuestro equipo puede atenderte en inglés o español, como prefieras." },
+  ],
+  finalCtaTitle: "Prefieres algo más directo",
+  finalCtaBody: "Escríbenos por WhatsApp o llámanos ahora mismo, sin formularios.",
+};
+
+export const contactEn = {
+  metaTitle: "Contact | Tampa Seguros",
+  metaDescription:
+    "Contact Tampa Seguros by WhatsApp, phone or form. Office in Tampa FL, free bilingual guidance. Florida state license L099087.",
+  breadcrumbName: "Contact",
+  eyebrow: "Let's talk",
+  h1: "Contact Tampa Seguros",
+  geo: "The Tampa Seguros Contact page connects you directly with a Florida-licensed insurance advisor, by WhatsApp, phone or form. We handle personal and commercial insurance questions from our Tampa office, with a response the same business day. Share your name, phone and reason for contact, and we'll reach out at no cost or obligation.",
+  formTitle: "Send us a message",
+  formSubtitle: "Fill out the form and an advisor will respond the same business day.",
+  infoTitle: "Contact information",
+  officeLabel: "Office",
+  hoursLabel: "Business hours",
+  emailLabel: "Email",
+  phoneLabel: "Phone",
+  mapTitle: "How to find us",
+  faqTitle: "Frequently asked questions about contacting us",
+  faqs: [
+    { q: "How fast do you respond?", a: "We usually respond the same business day, often within minutes if you message us on WhatsApp during business hours." },
+    { q: "Can I visit the office without an appointment?", a: "We recommend scheduling by WhatsApp or phone before visiting, to make sure an advisor is available to help you." },
+    { q: "Do you serve clients outside the Tampa area?", a: "Yes, we serve clients across all of Florida by phone, WhatsApp and video call, not just the Tampa Bay area." },
+    { q: "Do you offer service in English?", a: "Yes, our entire team can help you in English or Spanish, whichever you prefer." },
+  ],
+  finalCtaTitle: "Prefer something more direct?",
+  finalCtaBody: "Message us on WhatsApp or call right now, no forms needed.",
+};

@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  /* Regla 60-30-10 — ESTRATEGIA VISUAL TAMPA SEGUROS */
+  --background: #ffffff; /* 60% — fondo */
+  --foreground: #1f2933; /* texto principal, gris casi-negro (mejor lectura que #000) */
+
+  --color-tardis-blue: #003d6d; /* 30% — cabeceras, footers, H1/H2: autoridad */
+  --color-tardis-blue-dark: #00294a; /* hover/active sobre Tardis Blue */
+  --color-cold-blue: #81dbe2; /* 10% acento B2C — sedante visual, formas curvas */
+  --color-gold: #c5a059; /* 10% acento B2B — solvencia, formas rectas */
+  --color-gold-dark: #a9854a;
+  --color-bg-soft: #f4f6f8; /* fondo gris para alternar secciones */
+  --color-whatsapp: #25d366;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-tardis: var(--color-tardis-blue);
+  --color-tardis-dark: var(--color-tardis-blue-dark);
+  --color-cold-blue: var(--color-cold-blue);
+  --color-gold: var(--color-gold);
+  --color-gold-dark: var(--color-gold-dark);
+  --color-bg-soft: var(--color-bg-soft);
+  --color-whatsapp: var(--color-whatsapp);
+
+  --font-sans: var(--font-roboto);
+  --font-heading: var(--font-merriweather);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
