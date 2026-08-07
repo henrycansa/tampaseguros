@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude Code: config local de permisos, no se comparte entre máquinas
+.claude/settings.local.json
