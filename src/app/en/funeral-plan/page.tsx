@@ -9,7 +9,7 @@ const content = productsEn.funeral;
 export const metadata: Metadata = {
   title: content.metaTitle,
   description: content.metaDescription,
-  alternates: hreflang("/plan-funeral/", "/en/funeral-plan/"),
+  alternates: hreflang("/plan-funeral/", "/en/funeral-plan/", "en"),
 };
 
 const breadcrumbItems = [

@@ -9,7 +9,7 @@ const content = productsEs.shortTerm;
 export const metadata: Metadata = {
   title: content.metaTitle,
   description: content.metaDescription,
-  alternates: hreflang("/seguro-short-term/", "/en/short-term-health-insurance/"),
+  alternates: hreflang("/seguro-short-term/", "/en/short-term-health-insurance/", "es"),
 };
 
 const breadcrumbItems = [

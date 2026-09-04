@@ -20,7 +20,7 @@ import { hreflang } from "@/lib/hreflang";
 export const metadata: Metadata = {
   title: personalPillarEs.metaTitle,
   description: personalPillarEs.metaDescription,
-  alternates: hreflang("/seguros-personales/", "/en/personal-insurance/"),
+  alternates: hreflang("/seguros-personales/", "/en/personal-insurance/", "es"),
 };
 
 const breadcrumbItems = [

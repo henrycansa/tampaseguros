@@ -9,7 +9,7 @@ const content = productsEn.hogar;
 export const metadata: Metadata = {
   title: content.metaTitle,
   description: content.metaDescription,
-  alternates: hreflang("/seguros-de-hogar/", "/en/home-insurance/"),
+  alternates: hreflang("/seguros-de-hogar/", "/en/home-insurance/", "en"),
 };
 
 const breadcrumbItems = [

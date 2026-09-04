@@ -9,7 +9,7 @@ const content = productsEn.auto;
 export const metadata: Metadata = {
   title: content.metaTitle,
   description: content.metaDescription,
-  alternates: hreflang("/seguros-de-autos/", "/en/auto-insurance/"),
+  alternates: hreflang("/seguros-de-autos/", "/en/auto-insurance/", "en"),
 };
 
 const breadcrumbItems = [

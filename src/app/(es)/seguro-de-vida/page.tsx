@@ -9,7 +9,7 @@ const content = productsEs.vida;
 export const metadata: Metadata = {
   title: content.metaTitle,
   description: content.metaDescription,
-  alternates: hreflang("/seguro-de-vida/", "/en/life-insurance/"),
+  alternates: hreflang("/seguro-de-vida/", "/en/life-insurance/", "es"),
 };
 
 const breadcrumbItems = [

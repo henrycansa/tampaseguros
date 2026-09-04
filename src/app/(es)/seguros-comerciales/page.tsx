@@ -20,7 +20,7 @@ import { hreflang } from "@/lib/hreflang";
 export const metadata: Metadata = {
   title: businessPillarEs.metaTitle,
   description: businessPillarEs.metaDescription,
-  alternates: hreflang("/seguros-comerciales/", "/en/business-insurance/"),
+  alternates: hreflang("/seguros-comerciales/", "/en/business-insurance/", "es"),
 };
 
 const breadcrumbItems = [

@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   return {
     title: content.metaTitle,
     description: content.metaDescription,
-    alternates: hreflang(`/${servicio}/${ciudad}/`, `/en/${serviceSlugsEn[resolved.serviceKey]}/${ciudad}/`),
+    alternates: hreflang(`/${servicio}/${ciudad}/`, `/en/${serviceSlugsEn[resolved.serviceKey]}/${ciudad}/`, "es"),
   };
 }
 

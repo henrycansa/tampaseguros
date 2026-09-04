@@ -9,7 +9,7 @@ const content = productsEn.descuento;
 export const metadata: Metadata = {
   title: content.metaTitle,
   description: content.metaDescription,
-  alternates: hreflang("/planes-medico-de-descuento/", "/en/medical-discount-plans/"),
+  alternates: hreflang("/planes-medico-de-descuento/", "/en/medical-discount-plans/", "en"),
 };
 
 const breadcrumbItems = [

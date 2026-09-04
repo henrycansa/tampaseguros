@@ -17,7 +17,7 @@ import { hreflang } from "@/lib/hreflang";
 export const metadata: Metadata = {
   title: contactEs.metaTitle,
   description: contactEs.metaDescription,
-  alternates: hreflang("/contacto/", "/en/contact/"),
+  alternates: hreflang("/contacto/", "/en/contact/", "es"),
 };
 
 const breadcrumbItems = [

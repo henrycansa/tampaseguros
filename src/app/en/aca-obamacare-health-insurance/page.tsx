@@ -9,7 +9,7 @@ const content = productsEn.obamacare;
 export const metadata: Metadata = {
   title: content.metaTitle,
   description: content.metaDescription,
-  alternates: hreflang("/seguro-medico-obamacare/", "/en/aca-obamacare-health-insurance/"),
+  alternates: hreflang("/seguro-medico-obamacare/", "/en/aca-obamacare-health-insurance/", "en"),
 };
 
 const breadcrumbItems = [

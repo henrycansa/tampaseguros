@@ -9,7 +9,7 @@ const content = productsEn.visionDental;
 export const metadata: Metadata = {
   title: content.metaTitle,
   description: content.metaDescription,
-  alternates: hreflang("/seguro-vision-y-dental/", "/en/vision-and-dental-insurance/"),
+  alternates: hreflang("/seguro-vision-y-dental/", "/en/vision-and-dental-insurance/", "en"),
 };
 
 const breadcrumbItems = [

@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   description:
     "Free, bilingual insurance guidance for health, life, auto, home and business coverage in Florida. Tampa Seguros, operated by Godager Group LLC (Lic. L099087).",
   alternates: {
+    canonical: "https://www.tampaseguros.com/en",
     languages: {
       es: "https://www.tampaseguros.com",
       en: "https://www.tampaseguros.com/en",

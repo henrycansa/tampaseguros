@@ -9,7 +9,7 @@ const content = productsEs.medicare;
 export const metadata: Metadata = {
   title: content.metaTitle,
   description: content.metaDescription,
-  alternates: hreflang("/seguro-medicare/", "/en/medicare-insurance/"),
+  alternates: hreflang("/seguro-medicare/", "/en/medicare-insurance/", "es"),
 };
 
 const breadcrumbItems = [
