@@ -77,6 +77,13 @@ async function sendLeadEmail(lead: Lead) {
   const to = process.env.LEAD_NOTIFICATION_EMAIL;
 
   if (!apiKey || !from || !to) {
+    // Diagnóstico temporal: identifica cuál variable falta sin exponer valores.
+    console.error("[lead] env check", {
+      hasApiKey: Boolean(apiKey),
+      hasFrom: Boolean(from),
+      hasTo: Boolean(to),
+      nodeEnvKeys: Object.keys(process.env).filter((k) => k.includes("RESEND") || k.includes("LEAD_")),
+    });
     throw new Error("Resend no está configurado (faltan variables de entorno).");
   }
 
