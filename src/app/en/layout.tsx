@@ -11,7 +11,10 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.tampaseguros.com"),
   title: {
     default: "Tampa Seguros | Personal & Commercial Insurance in Florida",
-    template: "%s | Tampa Seguros",
+    // No template: every page already includes "| Tampa Seguros" in its own
+    // metaTitle. A template here would duplicate it (see metaTitle in
+    // src/lib/content/*.ts).
+    template: "%s",
   },
   description:
     "Free, bilingual insurance guidance for health, life, auto, home and business coverage in Florida. Tampa Seguros, operated by Godager Group LLC (Lic. L099087).",
